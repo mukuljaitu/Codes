@@ -1,9 +1,7 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 
 int main()
-{
-    int a = 'M' | 1;
-    printf("%c",a);
+{  
+    printf("AB\aCD\tEFGHIJKLMNOP\rQRSTU\bVWX\nYZ");
     return 0;
 }
