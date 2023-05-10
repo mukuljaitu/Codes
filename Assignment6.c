@@ -55,6 +55,7 @@ int main()
         {
             printf("%d isn't present in array", n);
         }
+        break;
     case 4:
         printf("To merge an array, you have to create a new array\n");
         printf("Enter size of new array: ");
