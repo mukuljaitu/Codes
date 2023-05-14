@@ -1,14 +1,16 @@
 #include<stdio.h>
 int main(){
     int num;
+    printf("Please enter an integer: ");
+    scanf("%d",&num);
     int h = num%2;
     switch (h)
     {
-    case '0':
+    case 0:
         printf("You entered an Even number");
         break;
 
-    case '1':
+    case 1:
         printf("You entered an Odd number");
         break;   
     default:
