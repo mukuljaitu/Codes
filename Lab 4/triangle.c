@@ -23,7 +23,7 @@ int main(){
             other = b*b + a*a;
         }
     }
-    if (a==b==c)
+    if (a==b && b==c)
     {
         printf("Your triangle is EQUILATERAL");
     }
